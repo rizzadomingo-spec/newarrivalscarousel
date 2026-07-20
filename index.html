@@ -4431,7 +4431,7 @@
         </button>
     </div>
 
-    <p style="text-align:center; margin: 18px 0 6px;">
+    <p style="text-align:center; margin: 8px 0 0;">
         <a class="lasalle-button" href="https://clr.benilde.edu.ph/resources/newacquisitions" target="_blank" rel="noopener noreferrer">Explore New Acquisitions</a>
     </p>
 
@@ -4451,7 +4451,7 @@
     border: none;
     border-radius: 0;
     box-shadow: none;
-    padding: 20px clamp(10px, 1.8vw, 20px);
+    padding: 0 clamp(10px, 1.8vw, 20px);
     max-width: 1420px;
     margin: 0 auto;
     color: #111827;
@@ -4825,7 +4825,7 @@
 }
 .acqui-dashboard .acqui-shelf-wrap {
     position: relative;
-    padding-top: 2px;
+    padding-top: 8px;
     margin-bottom: 6px;
     opacity: 0;
     animation: larcyAcquiRiseIn 0.55s cubic-bezier(.22,.61,.36,1) 0.32s forwards;
@@ -4971,7 +4971,7 @@
 
 .acqui-dashboard .acqui-shelf-wrap {
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 14px;
 }
 
 .lasalle-button {
@@ -5292,7 +5292,7 @@
 }
 @media (max-width: 640px) {
     .acqui-dashboard {
-        padding: 20px 14px;
+        padding: 0 14px;
     }
     .acqui-dashboard .acqui-heading {
         font-size: 1.6rem;
@@ -5305,11 +5305,7 @@
         flex-basis: 165px;
     }
     .acqui-dashboard .acqui-scroll-btn {
-        display: flex;
-        width: 44px;
-        height: 44px;
-        top: 50%;
-        border-radius: 9px;
+        display: none !important;
     }
     .acqui-dashboard .acqui-scroll-btn-arrow,
     .acqui-dashboard .acqui-scroll-btn-arrow svg {
@@ -5340,7 +5336,7 @@
 }
 @media (max-width: 480px) {
     .acqui-dashboard {
-        padding: 16px 12px;
+        padding: 0 12px;
     }
     .acqui-dashboard .acqui-grid {
         gap: 10px;
@@ -5349,10 +5345,7 @@
         flex-basis: 140px;
     }
     .acqui-dashboard .acqui-scroll-btn {
-        width: 40px;
-        height: 40px;
-        left: -6px !important;
-        right: -6px !important;
+        display: none !important;
     }
     .lasalle-button {
         padding: 12px 24px;
